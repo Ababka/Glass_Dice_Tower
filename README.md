@@ -1,4 +1,4 @@
-    **_The_**
+    **The**
 **Glass Dice Tower**
 
 This project was a hobby/ commission project for a coworker.

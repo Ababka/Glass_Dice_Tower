@@ -1,4 +1,4 @@
-//Please read READ.ME, this is just to clean up and comment on the code used in the Arduino IDE
+//Please read README, this is just to clean up and comment on the code used in the Arduino IDE
 
 //libraries used to create text but within the space requirments of the Trinket 5V
 #include <Adafruit_NeoPixel.h>
@@ -55,6 +55,8 @@ void loop() {
   oldState = newState;
 };
 
+//the bellow function is a series of shrinking/ expanding red circles with a stobe at the end.
+//the timing may need to be adjusted to the time it taks the dice to roll down or to fit your needs.
 void diceRoll(uint32_t color, int wait){
 
   pixels.fill(RED, 0, 8);
